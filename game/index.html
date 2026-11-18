@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Comet Courier — a deep-space delivery arcade. Grab glowing cargo, race it to the matching dock, dodge the asteroids.">
+<meta name="theme-color" content="#050914">
+<link rel="icon" href="data:,">
+<title>Comet Courier — a deep-space delivery arcade</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #04060f;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    display: block;
+    background: #050914;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720"></canvas>
+<noscript>Comet Courier needs JavaScript to fly.</noscript>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
